@@ -5,24 +5,21 @@ import "@fontsource/open-sans/700.css";
 
 export const theme = extendTheme({
     colors: {
-        brand: {
-            100: '#ff3C00',
-        },
-    }, 
-
+      brand: {
+        100: "#FF3C00",
+      },
+    },
     fonts: {
-        body:"Open Sans, sans-serif",
+      body: "Open Sans, sans-serif",
     },
-
-    style:{
-        global: () => ({
-            body: {
-                bg: 'gray.200',
-            },
-        }),
+    styles: {
+      global: () => ({
+        body: {
+          bg: "gray.200",
+        },
+      }),
     },
-    
-    component:{
-        // Button 
-    }
-});
+    components: {
+      // Input, // not working for some reason - come back to this
+    },
+  });
