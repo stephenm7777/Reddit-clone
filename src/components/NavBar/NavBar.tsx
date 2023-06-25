@@ -17,6 +17,9 @@ const NavBar: React.FC = () => {
                     height={50} 
                 />
             </Flex>
+            {/*<Directory />
+            <SearchInput />
+            <RightContent />*/}
         </Flex>
     );
 };
