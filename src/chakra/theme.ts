@@ -1,4 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
+import { Button } from "../chakra/button"
+
 import "@fontsource/open-sans/300.css"; 
 import "@fontsource/open-sans/400.css"; 
 import "@fontsource/open-sans/700.css"; 
@@ -20,6 +22,7 @@ export const theme = extendTheme({
       }),
     },
     components: {
-      // Input, // not working for some reason - come back to this
+      Button,
+      
     },
   });
